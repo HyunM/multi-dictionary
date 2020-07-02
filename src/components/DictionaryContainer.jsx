@@ -6,7 +6,7 @@ class DictionaryContainer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      keyword: "a",
+      keyword: "explicit",
     };
 
     this.handleKeywordSubmit = this.handleKeywordSubmit.bind(this);
