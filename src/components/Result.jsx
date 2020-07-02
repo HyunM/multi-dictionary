@@ -3,7 +3,6 @@ import Iframe from "react-iframe";
 import "./Result.css";
 
 function Result(props) {
-  debugger;
   return (
     <div>
       <Iframe
