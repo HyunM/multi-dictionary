@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d356907b2d4f44228ff035bf60f4c42",
+    "revision": "555fa4808564792f67dba29261f1d699",
     "url": "/multi-dictionary/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/multi-dictionary/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "6286e94c6a8cf0e62df4",
+    "revision": "9969426ee57240bebe03",
     "url": "/multi-dictionary/static/css/main.3e0261c1.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/multi-dictionary/static/js/2.341a24ae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6286e94c6a8cf0e62df4",
-    "url": "/multi-dictionary/static/js/main.2f07396a.chunk.js"
+    "revision": "9969426ee57240bebe03",
+    "url": "/multi-dictionary/static/js/main.b9208156.chunk.js"
   },
   {
     "revision": "4f2e9a204fcb6d0c3263",
