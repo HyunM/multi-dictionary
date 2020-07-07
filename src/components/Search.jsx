@@ -21,6 +21,9 @@ class Search extends React.Component {
   handleKeywordChange(e) {
     this.setState({ value: e.target.value });
   }
+  componentDidUpdate(){
+    document.getElementById("focusID").focus();
+  }
   //   keyPress(e) {
   //     if (e.keyCode === "Enter") {
   //       this.props.onHandleKeywordSubmit(this.state.value);
@@ -40,6 +43,7 @@ class Search extends React.Component {
                 this.handleKeywordSubmit();
               }
             }}
+            id="focusID"
           />
           <InputGroup.Append
             className="inputToBtn"

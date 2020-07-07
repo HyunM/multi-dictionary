@@ -14,7 +14,7 @@ function Result(props) {
         position="relative"
       />
       <Iframe
-        url={"https://www.dictionary.com/browse/" + props.keyword + "?s=t"}
+        url={"https://www.thesaurus.com/browse/" + props.keyword + "?s=t"}
         width="25%"
         height="450px"
         className="myClassname forDictionary"
