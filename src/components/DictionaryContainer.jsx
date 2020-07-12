@@ -12,6 +12,14 @@ class DictionaryContainer extends React.Component {
     this.handleKeywordSubmit = this.handleKeywordSubmit.bind(this);
   }
 
+  componentDidMount(){
+    setTimeout(function() {document.getElementById("focusID").focus()},2000);
+  }
+
+  componentDidUpdate(){
+    setTimeout(function() {document.getElementById("focusID").focus()},2000);
+  }
+
   handleKeywordSubmit(keyword) {
     this.setState({
       keyword: keyword,
