@@ -1,0 +1,1 @@
+{"version":3,"sources":["Search.css","Result.css"],"names":[],"mappings":"AAAA,YACE,cACF,CAEA,YACE,SAAU,CACV,SACF,CCPA,eACE,SAAU,CACV,6BACF","file":"main.976a0917.chunk.css","sourcesContent":[".inputToBtn {\r\n  cursor: pointer;\r\n}\r\n\r\n.inputGroup {\r\n  width: 25%;\r\n  margin: 2%;\r\n}\r\n",".forDictionary {\r\n  width: 25%;\r\n  height: -webkit-fill-available;\r\n}\r\n"]}
