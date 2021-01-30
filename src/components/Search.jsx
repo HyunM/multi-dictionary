@@ -21,8 +21,7 @@ class Search extends React.Component {
   handleKeywordChange(e) {
     this.setState({ value: e.target.value });
   }
- 
-  
+
   render() {
     return (
       <div>
@@ -32,7 +31,7 @@ class Search extends React.Component {
             aria-label="Type Keyword"
             aria-describedby="basic-addon2"
             onChange={this.handleKeywordChange}
-            onKeyPress={event => {
+            onKeyPress={(event) => {
               if (event.key === "Enter") {
                 this.handleKeywordSubmit();
               }
